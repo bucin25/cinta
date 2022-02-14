@@ -314,7 +314,6 @@ def menu():
 	except:kiky=("None")
 	try:kiky_kartu=requests.get("http://ip-api.com/json/").json()["isp"]
 	except:kiky_kartu=("None")
-	print(logo)
 	visitor()
 #											
 	url_main = "https://www.whatsmyua.info"
@@ -347,6 +346,7 @@ def menu():
 	print (' \033[1;96m  ____________________________________________')
 	print ('\033[1;97m\033[1;96m ¤\033[1;97m{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}\033[1;96m¤')
 	print ('')
+	print(C+" ["+P+"01"+C+"]"+P+" Crack Dari Teman/Public")
 	print(C+" ["+P+"02"+C+"]"+P+" Crack Dari Pengikut/Follow")
 	print(C+" ["+P+"03"+C+"]"+P+" Crack Dari Teman + Pengikut/Public + Follow")
 	print(C+" ["+P+"04"+C+"]"+P+" Crack Dari Teman Old ")
