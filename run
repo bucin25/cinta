@@ -94,7 +94,7 @@ p='\x1b[00m'
 h='\x1b[1;90m'
 q="\x1b[00m"
 version_xx=("2.0.3")
-war = (Q+"["+C+"+"+Q+"] ")
+war = (O+"["+P+"+"+O+"] ")
 inp = (Q+"["+U+"-"+Q+"] ")
 bulat = (Q+"["+C+"#"+Q+"] ")
 garis = (war+"=====================================================")
@@ -3492,10 +3492,10 @@ def dump_public():
 	if namafi == "" or namafi == " ":
 		namafi = text_random()
 	dump = open('dump/'+namafi+'.json','w') 
-	jalan(war+"Ketik >"+I+"me"+Q+"< Untuk Dump Data Sendiri")
+	jalan(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mKetik >"+I+"me"+Q+"< Untuk Dump Data Sendiri")
 	for t in range(tanya_total):
 		t +=1
-		idt = input(war+" \033[1;96m[\033[1;97m?\033[1;96m] Masukan ID %s : "%(t))
+		idt = input(" \033[1;96m[\033[1;97m?\033[1;96m] Masukan ID %s : "%(t))
 		idt = ubah_username_to_id(idt)
 #		cek_history(idt)
 		limit = ("10000")
