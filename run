@@ -362,7 +362,7 @@ def menu():
 	print(C+" ["+P+"14"+C+"]"+M+" Lihat Hasil Crack")
 	print(C+" ["+P+"15"+C+"]"+M+" Lapor Ke Admin Script "+Q+"("+K+"Report"+Q+")")
 	print(C+" ["+P+"00"+C+"]"+P+" Exit (hapus token)")
-	ba=input("\n"+war+" PILIH : ")
+	ba=input(' \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 	if ba in [""," "]:
 		print(war+"Jangan Kosong Bangsat")
 		time.sleep(2)
