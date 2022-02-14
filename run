@@ -125,7 +125,7 @@ def pilih_alam():
 
 def pilih_infong():
 	global infoong
-	pil_vv = input(war+"Apakah Anda Mau Menampilkan Informasi Akun (Y/n) :")
+	pil_vv = input(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mTampilkan Option Login Facebook (Y/n) : \033[1;96m")3
 	if pil_vv == "y" or pil_vv == "Y":
 		infoong = ("y")
 		return infoong
