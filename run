@@ -1873,8 +1873,7 @@ class crackmenu:
             time.sleep(2)
             menu()
         cjj = open(".paww", "w")
-        print('\n\n'+war+'Silahkan Pilih Password (Default/Manual/Gabungan)-(D/m/g) ?')
-        zk = input(inp+'Pilih : ')
+        zk = input('\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Password (D/m/g) : ')
         if zk in ('m','M','Manual','manual'):
             while True:
                 jalan(war+"Contoh Password : sayang,123456")
@@ -3521,7 +3520,7 @@ def dump_public():
 		except Exception as e:
 			jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97m Maaf ID "+C+idt+Q+" Ini Tidak DiTemukan ! ("+str(e)+")")
 			continue
-		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97m\033[1;97mNama   : "+I+nama+Q+"\n")
+		jalan("\m \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mNama   : "+I+nama+Q+"\n")
 #		jalan(war+"Kota   : "+I+tempat+Q)
 #		jalan(war+"Lokasi : "+I+tinggal+Q+"\n")
 		try:
