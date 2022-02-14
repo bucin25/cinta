@@ -3205,7 +3205,7 @@ def dump_old():
                 time.sleep(0.5)
                 login()
         try:
-                nada = int(input("\n"+war+"Mau Dump Berapa Idz : "))
+                nada = int(input("\n \033[1;96m[\033[1;97m?\033[1;96m]Jumlah Target ID : "))
                 if nada>20:
                         jalan(war+"Max 20 Idz")
                         time.sleep(0.5)
@@ -3486,16 +3486,16 @@ def dump_public():
 		os.system("rm -rf .login.txt")
 		exit(war+"Token Failed !!");time.sleep(2)
 	try:
-		tanya_total = int(input(war+"Mau Dump Berapa Id : "))
+		tanya_total = int(input("\n \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mJumlah Target ID : "))
 	except:tanya_total=1
-	namafi = input(war+"Nama File (contoh : sayang)"+K+"Enter:Random"+Q+" : ")
+	namafi = input(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mNama File : ")
 	if namafi == "" or namafi == " ":
 		namafi = text_random()
 	dump = open('dump/'+namafi+'.json','w') 
 	jalan(war+"Ketik >"+I+"me"+Q+"< Untuk Dump Data Sendiri")
 	for t in range(tanya_total):
 		t +=1
-		idt = input(war+"Masukan Idz Atau Username Target %s : "%(t))
+		idt = input(war+" \033[1;96m[\033[1;97m?\033[1;96m] Masukan ID %s : "%(t))
 		idt = ubah_username_to_id(idt)
 #		cek_history(idt)
 		limit = ("10000")
@@ -3561,7 +3561,7 @@ def dump_follow_public():
 		exit(war+"Token Failed !!");time.sleep(2)
 
 	try:
-		tanya_total = int(input(war+"Mau Dump Berapa Id : "))
+		tanya_total = int(input(" \033[1;96m[\033[1;97m?\033[1;96m]Jumlah Target ID : "))
 	except:tanya_total=1
 	namafi = input(war+"Nama File (contoh : sayang)"+K+"Enter:Random"+Q+" : ")
 	if namafi == "" or namafi == " ":
