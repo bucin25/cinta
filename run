@@ -3518,11 +3518,10 @@ def dump_public():
 #				tinggal = op['hometown']['name']
 #			except (KeyError, IOError):
 #				tinggal = ("Nama Kota Tidak DiTemukan")
-
 		except Exception as e:
-			jalan(war+"Maaf ID "+C+idt+Q+" Ini Tidak DiTemukan ! ("+str(e)+")")
+			jalan(war+" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97m Maaf ID "+C+idt+Q+" Ini Tidak DiTemukan ! ("+str(e)+")")
 			continue
-		jalan(" +war+"\033[1;97mNama   : "+I+nama+Q+"\n")
+		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97m\033[1;97mNama   : "+I+nama+Q+"\n")
 #		jalan(war+"Kota   : "+I+tempat+Q)
 #		jalan(war+"Lokasi : "+I+tinggal+Q+"\n")
 		try:
