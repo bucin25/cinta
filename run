@@ -125,7 +125,7 @@ def pilih_alam():
 
 def pilih_infong():
 	global infoong
-	pil_vv = input(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mTampilkan Option Login Facebook (Y/n) : \033[1;96m")
+	pil_vv = input(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mTampilkan Option Login Facebook (Y/n) : \033[1;93m")
 	if pil_vv == "y" or pil_vv == "Y":
 		infoong = ("y")
 		return infoong
@@ -852,7 +852,7 @@ def exceptv1(userq, pwq):
 		return exceptv1(userq, pwq)
 def tanya_opsi():
 	global opsii
-	anjag = input(war+"Apakah Anda Mau Menampilkan Opsi Akun (y/n) : ")
+	anjag = input(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mTampilkan Option Login Facebook (Y/n) : \033[1;93m")
 	if anjag in ["1","Yes","ya","y","Y","Ya"]:
 		opsii = "y"
 	else:
