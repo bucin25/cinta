@@ -351,7 +351,7 @@ def menu():
 	print(C+" ["+P+"03"+C+"]"+P+" Crack Dari Teman + Pengikut/Public + Follow")
 	print(C+" ["+P+"04"+C+"]"+P+" Crack Dari Teman Old ")
 	print(C+" ["+P+"05"+C+"]"+P+" Crack Dari Random Old ")
-	print(C+" ["+P+"06"+C+"]"+P+" Crack Dari Anggota Groups "+off_)
+	print(C+" ["+P+"06"+C+"]"+P+" Crack Dari Anggota Groups ")
 	print(C+" ["+P+"07"+C+"]"+P+" Crack Dari File")
 	print(C+" ["+P+"08"+C+"]"+K+" Dump Id Ultimate ("+M+"Brutal"+Q+")")
 	print(C+" ["+P+"09"+C+"]"+K+" Crack Instagram ")
