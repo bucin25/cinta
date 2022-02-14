@@ -2876,7 +2876,7 @@ def check_kukis():
 		except:pass
 	else:pass
 def coke():
-        _cookie=input(war+'Cookies : '+I)
+        _cookie=input(' \033[1;96m[\033[1;97m1\033[1;96m]\033[1;97m Cookies : '+I)
         _cookie += "noscript=1;"+_cookie
         try:
                 _head={
