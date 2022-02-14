@@ -1406,7 +1406,7 @@ def visitor():
 			le = (lee[le].replace("</text>",""))
 		except:
 			le = ("NONE")
-		jalan("[++] Selamat Datang User Jmbf Yang Ke "+I+str(datax)+Q+" Dari "+I+str(le)+Q+" User Jmbf");time.sleep(2)
+		
 	except:
 		try:
 			url_vis = "https://github.com/Dumai-991/jmbf/blob/Xnxx/README.md"
