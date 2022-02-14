@@ -3486,16 +3486,16 @@ def dump_public():
 		os.system("rm -rf .login.txt")
 		exit(war+"Token Failed !!");time.sleep(2)
 	try:
-		tanya_total = int(input("\n \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mJumlah Target ID : "))
+		tanya_total = int(input("\n \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mJumlah Target ID : \033[1;93m "))
 	except:tanya_total=1
-	namafi = input(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mNama File : ")
+	namafi = input(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mNama File :\033[1;93m ")
 	if namafi == "" or namafi == " ":
 		namafi = text_random()
 	dump = open('dump/'+namafi+'.json','w') 
 	jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mKetik >"+I+"me"+Q+"< Untuk Dump Data Sendiri")
 	for t in range(tanya_total):
 		t +=1
-		idt = input(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mMasukan ID %s : "%(t))
+		idt = input(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mMasukan ID %s :\033[1;93m "%(t))
 		idt = ubah_username_to_id(idt)
 #		cek_history(idt)
 		limit = ("10000")
