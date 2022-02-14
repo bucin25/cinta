@@ -3486,7 +3486,7 @@ def dump_public():
 		os.system("rm -rf .login.txt")
 		exit(war+"Token Failed !!");time.sleep(2)
 	try:
-		tanya_total = int(input("\n \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mJumlah Target ID : \033[1;93m "))
+		tanya_total = int(input("\n \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mJumlah Target ID :\033[1;93m "))
 	except:tanya_total=1
 	namafi = input(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mNama File :\033[1;93m ")
 	if namafi == "" or namafi == " ":
@@ -3519,7 +3519,7 @@ def dump_public():
 #			except (KeyError, IOError):
 #				tinggal = ("Nama Kota Tidak DiTemukan")
 		except Exception as e:
-			jalan(war+" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97m Maaf ID "+C+idt+Q+" Ini Tidak DiTemukan ! ("+str(e)+")")
+			jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97m Maaf ID "+C+idt+Q+" Ini Tidak DiTemukan ! ("+str(e)+")")
 			continue
 		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97m\033[1;97mNama   : "+I+nama+Q+"\n")
 #		jalan(war+"Kota   : "+I+tempat+Q)
@@ -3539,10 +3539,9 @@ def dump_public():
 	if id_ == "0" or "0" == id_:
 		jalan(war+"Kemungkinan Idz Yang Anda Masukan Tidak DiPublickan !!")
 	else:
-		print(war+"Total ID : %s"%(len(id)))
-		jalan(war+"Nama Hasil Dump : "+I+"dump/"+namafi+".json"+Q)
-		jalan(war+"Silahkan Copy Nama Hasil Dump Tadi !!")
-		jalan("\n"+war+"Apakah Anda Mau Lasung Crack Dengan File Ini (Y/n) : ")
+		print(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mTotal ID : %s"%(len(id)))
+		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mNama Hasil Dump : "+I+"dump/"+namafi+".json"+Q)
+		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mCrack Dengan File Ini (Y/n) : ")
 		zz = input(war+'Pilih : ')
 		if zz in ["Y", "y", "Yes", "1"]:
 			crackmenu("dump/"+namafi+".json").passmenu("dump/"+namafi+".json")
