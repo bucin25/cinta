@@ -3520,7 +3520,7 @@ def dump_public():
 		except Exception as e:
 			jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97m Maaf ID "+C+idt+Q+" Ini Tidak DiTemukan ! ("+str(e)+")")
 			continue
-		jalan("\m \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mNama   : "+I+nama+Q+"\n")
+		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mNama   : "+I+nama+Q+"\n")
 #		jalan(war+"Kota   : "+I+tempat+Q)
 #		jalan(war+"Lokasi : "+I+tinggal+Q+"\n")
 		try:
