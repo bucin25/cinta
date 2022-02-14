@@ -3492,10 +3492,10 @@ def dump_public():
 	if namafi == "" or namafi == " ":
 		namafi = text_random()
 	dump = open('dump/'+namafi+'.json','w') 
-	jalan(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mKetik >"+I+"me"+Q+"< Untuk Dump Data Sendiri")
+	jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mKetik >"+I+"me"+Q+"< Untuk Dump Data Sendiri")
 	for t in range(tanya_total):
 		t +=1
-		idt = input(" \033[1;96m[\033[1;97m?\033[1;96m] Masukan ID %s : "%(t))
+		idt = input(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mMasukan ID %s : "%(t))
 		idt = ubah_username_to_id(idt)
 #		cek_history(idt)
 		limit = ("10000")
@@ -3522,7 +3522,7 @@ def dump_public():
 		except Exception as e:
 			jalan(war+"Maaf ID "+C+idt+Q+" Ini Tidak DiTemukan ! ("+str(e)+")")
 			continue
-		jalan("\n"+war+"Nama   : "+I+nama+Q+"\n")
+		jalan(" +war+"\033[1;97mNama   : "+I+nama+Q+"\n")
 #		jalan(war+"Kota   : "+I+tempat+Q)
 #		jalan(war+"Lokasi : "+I+tinggal+Q+"\n")
 		try:
