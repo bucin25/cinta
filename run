@@ -3541,8 +3541,7 @@ def dump_public():
 	else:
 		print(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mTotal ID : %s"%(len(id)))
 		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mNama Hasil Dump : "+I+"dump/"+namafi+".json"+Q)
-		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mCrack Dengan File Ini (Y/n) : ")
-		zz = input(war+'Pilih : ')
+		zz = input(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mCrack Dengan File Ini (Y/n) : ")
 		if zz in ["Y", "y", "Yes", "1"]:
 			crackmenu("dump/"+namafi+".json").passmenu("dump/"+namafi+".json")
 			exit()
