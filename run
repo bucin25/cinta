@@ -318,7 +318,7 @@ def menu():
 	print (" \33[3;1m\033[1;97mSelamat datang......\33[0;1m\033")
 	print("")
 	print(C+" ["+P+"16"+C+"]"+P+" Crack ID Publik")
-	print(C+" ["+P+"01"+C+"]"+P+" Crack ID Unlimited")
+	print(C+" ["+P+"23"+C+"]"+P+" Crack ID Unlimited")
 	print(C+" ["+P+"02"+C+"]"+P+" Crack ID Follower")
 	print(C+" ["+P+"03"+C+"]"+P+" Crack ID Teman/Public/Follower")
 	print(C+" ["+P+"04"+C+"]"+P+" Crack ID Teman Old ")
@@ -340,10 +340,14 @@ def menu():
 		time.sleep(2)
 		menu()
 
-	elif ba in ["1","01"]:
+	elif ba in ["16","16"]:
 		dump_public()
 		exit()
-
+		
+	elif ba in ["23","23"]:
+		dump_public()
+		exit()
+		
 	elif ba in ["2","02"]:
 		dump_follow()
 		exit()
