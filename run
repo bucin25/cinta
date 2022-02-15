@@ -317,7 +317,7 @@ def menu():
 	time.sleep (0.01)
 	print("")
 	print("")
-	jalan (" \33[3;1m\033[1;97mSelamat datang......\33[0;1m\033")
+	jalan (" \33[3;1m\033[1;97mMENU Pilihan......\33[0;1m\033")
 	print("")
 	jalan(C+" ["+P+"01"+C+"]"+P+" Crack ID Publik")
 	jalan(C+" ["+P+"02"+C+"]"+P+" Crack ID Unlimited")
