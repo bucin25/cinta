@@ -324,15 +324,12 @@ def menu():
 	print(C+" ["+P+"05"+C+"]"+P+" Crack ID Teman Old ")
 	print(C+" ["+P+"06"+C+"]"+P+" Crack ID Random Old ")
 	print(C+" ["+P+"07"+C+"]"+P+" Crack ID Anggota Groups ")
-	print(C+" ["+P+"23"+C+"]"+P+" Crack ID Dari File")
-	print(C+" ["+P+"08"+C+"]"+P+" Dump ID Ultimate ")
 	print(C+" ["+P+"09"+C+"]"+H+" Crack INSTAGRAM ")
-	print(C+" ["+P+"10"+C+"]"+P+" Ganti User Agent")
-	print(C+" ["+P+"11"+C+"]"+P+" Check Opsi Akun Facebook ")
-	print(C+" ["+P+"12"+C+"]"+P+" Check ID")
-	print(C+" ["+P+"13"+C+"]"+P+" Lihat Informasih Data Target")
-	print(C+" ["+P+"14"+C+"]"+P+" Lihat Hasil Crack")
-	print(C+" ["+P+"15"+C+"]"+P+" Lapor Ke Admin ")
+	print(C+" ["+P+"09"+C+"]"+P+" Ganti User Agent")
+	print(C+" ["+P+"10"+C+"]"+P+" Check Opsi Akun Facebook ")
+	print(C+" ["+P+"11"+C+"]"+P+" Check ID")
+	print(C+" ["+P+"12"+C+"]"+P+" Lihat Hasil Crack")
+	print(C+" ["+P+"13"+C+"]"+P+" Lapor Ke Admin ")
 	print(C+" ["+P+"00"+C+"]"+M+" Hapus Token/Cookies")
 	ba=input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 	if ba in [""," "]:
@@ -399,49 +396,30 @@ def menu():
 				exit("\n"+war+"Maaf Jaringan Anda, Putus Karena Murah")
 		crackmenu("dump/"+nama_grup+".json").passmenu("dump/"+nama_grup+".json")
 		exit("\n"+war+'Done !')
-	elif ba in ["23","23"]:
-		cekfile("dump")
-		try:
-			file = input(war+"Nama File : ")
-			crackmenu(file).passmenu(file)
-			exit()
-		except FileNotFoundError:
-			exit(war+'File Tidak Ada !!')
-
 	elif ba in ["8","08"]:
-		dump_ulti()
-		exit()
-	elif ba in ["9","09"]:
 		log_igeh()
 		menu_igeh()
 		exit()
 
 
-	elif ba in ["10"]:
+	elif ba in ["09"]:
 		ganti_ua()
 		exit()
 
-	elif ba in ["11"]:
+	elif ba in ["10"]:
 #	 	buatngecek()  V 1
 		cpdetect()
 		exit()
 
-	elif ba in ["12"]:
+	elif ba in ["11"]:
 		cek_anak_epep()
 		exit()
 
-
-	elif ba in ["13"]:
-		get_info()
-		exit()
-
-
-
-	elif ba in ["14"]:
+	elif ba in ["12"]:
 		rek()
 		exit()
 
-	elif ba in ["15"]:
+	elif ba in ["13"]:
 		buat_laporan()
 
 	elif ba in ["00"]:
