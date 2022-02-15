@@ -317,14 +317,14 @@ def menu():
 	print("")
 	print (" \33[3;1m\033[1;97mSelamat datang......\33[0;1m\033")
 	print("")
-	print(C+" ["+P+"16"+C+"]"+P+" Crack ID Publik")
-	print(C+" ["+P+"23"+C+"]"+P+" Crack ID Unlimited")
-	print(C+" ["+P+"02"+C+"]"+P+" Crack ID Follower")
-	print(C+" ["+P+"03"+C+"]"+P+" Crack ID Teman/Public/Follower")
-	print(C+" ["+P+"04"+C+"]"+P+" Crack ID Teman Old ")
-	print(C+" ["+P+"05"+C+"]"+P+" Crack ID Random Old ")
-	print(C+" ["+P+"06"+C+"]"+P+" Crack ID Anggota Groups ")
-	print(C+" ["+P+"07"+C+"]"+P+" Crack ID Dari File")
+	print(C+" ["+P+"01"+C+"]"+P+" Crack ID Publik")
+	print(C+" ["+P+"02"+C+"]"+P+" Crack ID Unlimited")
+	print(C+" ["+P+"03"+C+"]"+P+" Crack ID Follower")
+	print(C+" ["+P+"04"+C+"]"+P+" Crack ID Teman/Public/Follower")
+	print(C+" ["+P+"05"+C+"]"+P+" Crack ID Teman Old ")
+	print(C+" ["+P+"06"+C+"]"+P+" Crack ID Random Old ")
+	print(C+" ["+P+"07"+C+"]"+P+" Crack ID Anggota Groups ")
+	print(C+" ["+P+"23"+C+"]"+P+" Crack ID Dari File")
 	print(C+" ["+P+"08"+C+"]"+P+" Dump ID Ultimate ")
 	print(C+" ["+P+"09"+C+"]"+H+" Crack INSTAGRAM ")
 	print(C+" ["+P+"10"+C+"]"+P+" Ganti User Agent")
@@ -340,32 +340,32 @@ def menu():
 		time.sleep(2)
 		menu()
 
-	elif ba in ["16","16"]:
-		dump_public()
-		exit()
-		
-	elif ba in ["23","23"]:
-		dump_public()
+	elif ba in ["1","01"]:
+		dump_public1()
 		exit()
 		
 	elif ba in ["2","02"]:
+		dump_public()
+		exit()
+		
+	elif ba in ["3","03"]:
 		dump_follow()
 		exit()
 
-	elif ba in ["3","03"]:
+	elif ba in ["4","04"]:
 		dump_follow_public()
 		exit()
 
-	elif ba in ["4","04"]:
+	elif ba in ["5","05"]:
 #		dumppro()
 		dump_old()
 		exit()
 
-	elif ba in ["5","05"]:
+	elif ba in ["6","06"]:
 		buat_old()
 		exit(war+"Done ! ")
 
-	elif ba in ["6","06"]:
+	elif ba in ["7","07"]:
 		jalan(war+"Maaf Menu Ini Sedang Maintenance Harap Besabar !")
 		time.sleep(1)
 		menu()
@@ -399,7 +399,7 @@ def menu():
 				exit("\n"+war+"Maaf Jaringan Anda, Putus Karena Murah")
 		crackmenu("dump/"+nama_grup+".json").passmenu("dump/"+nama_grup+".json")
 		exit("\n"+war+'Done !')
-	elif ba in ["7","07"]:
+	elif ba in ["23","23"]:
 		cekfile("dump")
 		try:
 			file = input(war+"Nama File : ")
