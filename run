@@ -1792,11 +1792,9 @@ class crackmenu:
     def pro_ses(self):
         jalan("")
         jalan(" Sedang Dalam Proses : "+Q+"["+C+datetime.now().strftime('%H:%M:%S')+Q+"]")
-        print(" Mainkan Data Mode Pesawat Selama 1 Detik Jika Tidak Mnedapatkan Hasil")
-	print(" \033[1;96m[\033[1;97m*\033[1;96m] \033[1;97mHasil CP Disimpan Di : \033[1;93mHasil/CP-"+durasi+".txt)
-	print(" \033[1;96m[\033[1;97m*\033[1;96m] \033[1;97mHasil OK Disimpan Di : \033[1;92mHasil/OK-"+durasi+".txt\n\n"+Q)
-
-    def menu_crack(self):   # METHOD AUTO PASSWROD
+	print(" Mainkan Data  Mode Pesawat Jika Tidak Ada Hasil\n"+war+"Hasil CP DiSimpan Di : "+K+"Hasil/CP-"+durasi+".txt\n"+Q+war+"Hasil OK DiSimpan Di : "+I+"Hasil/OK-"+durasi+".txt\n\n"+Q)
+        
+	def menu_crack(self):   # METHOD AUTO PASSWROD
         jalan("\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Methode Login :")
         print(" \033[1;96m[\033[1;97m1\033[1;96m] \033[1;97mB-Api V1      ( Fast Crack  ) ( Rawan Spam )");time.sleep(0.02)
         print(" \033[1;96m[\033[1;97m2\033[1;96m] \033[1;97mB-Api V2      ( Fast Crack  ) ");time.sleep(0.02)
