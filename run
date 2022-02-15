@@ -1792,7 +1792,9 @@ class crackmenu:
     def pro_ses(self):
         jalan("")
         jalan(" Sedang Dalam Proses : "+Q+"["+C+datetime.now().strftime('%H:%M:%S')+Q+"]")
-        print(" Mainkan Data Mode Pesawat Selama 1 Detik Jika Tidak Mnedapatkan Hasil\n" \033[1;96m[\033[1;97m1\033[1;96m] \033[1;97mHasil CP Disimpan Di : "+K+"Hasil/CP-"+durasi+".txt" \033[1;96m[\033[1;97m1\033[1;96m] \033[1;97mHasil OK Disimpan Di : "+I+"Hasil/OK-"+durasi+".txt\n\n"+Q)
+        print(" Mainkan Data Mode Pesawat Selama 1 Detik Jika Tidak Mnedapatkan Hasil")
+	print("\n \033[1;96m[\033[1;97m1\033[1;96m] \033[1;97mHasil CP Disimpan Di : "+K+"Hasil/CP-"+durasi+".txt")
+	print(" \033[1;96m[\033[1;97m1\033[1;96m] \033[1;97mHasil OK Disimpan Di : "+I+"Hasil/OK-"+durasi+".txt\n\n"+Q)
 
     def menu_crack(self):   # METHOD AUTO PASSWROD
         jalan("\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Methode Login :")
