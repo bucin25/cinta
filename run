@@ -1790,10 +1790,10 @@ class crackmenu:
                     mobile_n(pwx.split(','))
                     break
     def pro_ses(self):
-	jalan("\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mProses Crack Sedang Berjalan Harap Tunggu : "+Q+"["+C+datetime.now().strftime('%H:%M:%S')+Q+"]")
-        print(f"{O}[{P}*{O}]{P} Hasil CP Disimpan Di : {K} Hasil/CP-{durasi}.txt")
-	print(f"{O}[{P}*{O}]{P} Hasil OK Disimpan Di : {H} Hasil/OK-{durasi}.txt")
-	print(f"\n\n{P}")
+        jalan("")
+        jalan(war+M+"Jika Tidak Hasil Hidup Matikan Mode Pesawat Selama 5 Detik")
+        jalan(war+"Proses Crack Sedang Berjalan Harap Tunggu : "+Q+"["+C+datetime.now().strftime('%H:%M:%S')+Q+"]")
+        print(war+"Hidup Matikan Mode Pesawat Jika Tidak Ada Hasil\n"+war+"Hasil Crack Yang CP DiSimpan Di : "+K+"Hasil/CP-"+durasi+".txt\n"+Q+war+"Hasil Crack Yang OK DiSimpan Di : "+I+"Hasil/OK-"+durasi+".txt\n\n"+Q)
 	
     def menu_crack(self):   # METHOD AUTO PASSWROD        
         jalan("\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Methode Login :")
