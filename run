@@ -1846,20 +1846,20 @@ class crackmenu:
 
     def menu_crack(self):   # METHOD AUTO PASSWROD
         jalan("\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Methode Login :")
-        print(Q+"[1] B-Api V1      ( Fast Crack  ) ( Rawan Spam )");time.sleep(0.02)
-        print(Q+"[2] B-Api V2      ( Fast Crack  ) ");time.sleep(0.02)
-        print(Q+"[3] B-Api V3      ( Fast Crack  )");time.sleep(0.02)
-        print(Q+"[4] Mbasic V1     ( Slow Crack  )");time.sleep(0.02)
-        print(Q+"[5] Mbasic V2 "+C+"Pro"+Q+" ( Slow Crack  )");time.sleep(0.02)
-        print(Q+"[6] Mbasic V3 "+C+"Pro"+Q+" ( Fast Crack  )");time.sleep(0.02)
-        print(Q+"[7] Mobile V1 "+C+"Pro"+Q+" ( Fast Crack  ) ( "+I+"Recommended"+Q+"  )\n");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m1\033[1;96m] \033[1;97mB-Api V1      ( Fast Crack  ) ( Rawan Spam )");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m2\033[1;96m] \033[1;97mB-Api V2      ( Fast Crack  ) ");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m3\033[1;96m] \033[1;97mB-Api V3      ( Fast Crack  )");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m4\033[1;96m] \033[1;97mMbasic V1     ( Slow Crack  )");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m5\033[1;96m] \033[1;97mMbasic V2 "+C+"Pro"+Q+" ( Slow Crack  )");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m6\033[1;96m] \033[1;97m Mbasic V3 "+C+"Pro"+Q+" ( Fast Crack  )");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m7\033[1;96m] \033[1;97mMobile V1 "+C+"Pro"+Q+" ( Fast Crack  ) ( "+I+"Recommended"+Q+"  )\n");time.sleep(0.02)
     def menu_crack_m(self):   # METHOD MANUAL PASSWORD
         jalan("\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Methode Login :")
-        print(Q+"[1] B-Api V1      ( Fast Crack  ) ( Rawan Spam )");time.sleep(0.02)
-        print(Q+"[2] B-Api V2      ( Fast Crack  ) ");time.sleep(0.02)
-        print(Q+"[3] Mbasic V1     ( Slow Crack  )");time.sleep(0.02)
-        print(Q+"[4] Mbasic V2     ( Fast Crack  )");time.sleep(0.02)
-        print(Q+"[5] Mobile V1 "+C+"Pro"+Q+" ( Fast Crack  ) ( "+I+"Recommended"+Q+"  )\n");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m1\033[1;96m] \033[1;97mB-Api V1      ( Fast Crack  ) ( Rawan Spam )");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m2\033[1;96m] \033[1;97mB-Api V2      ( Fast Crack  ) ");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m3\033[1;96m] \033[1;97mMbasic V1     ( Slow Crack  )");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m4\033[1;96m] \033[1;97mMbasic V2     ( Fast Crack  )");time.sleep(0.02)
+        print(" \033[1;96m[\033[1;97m5\033[1;96m] \033[1;97mMobile V1 "+C+"Pro"+Q+" ( Fast Crack  ) ( "+I+"Recommended"+Q+"  )\n");time.sleep(0.02)
 
     def passmenu(self,isifile):
         try:
