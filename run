@@ -1503,9 +1503,7 @@ def generate(text):
 	kika = text.split(" ")
 	results.append(kika[0])
 	results.append(kika[0]+"123")
-	results.append(kika[0]+"1234")
 	results.append(kika[0]+"12345")
-#	results.append(kika[0]+"123456")
 	results.append(text)
 	return results
 def generatekotol(n__a):
@@ -1824,7 +1822,7 @@ class crackmenu:
             time.sleep(2)
             menu()
         cjj = open(".paww", "w")
-        zk = input('\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Password (D/m/g) : ')
+        zk = input('\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Password (D/m/g) :\033[1;93m ')
         if zk in ('m','M','Manual','manual'):
             while True:
                 jalan(war+"Contoh Password : sayang,123456")
@@ -3491,7 +3489,7 @@ def dump_public():
 	else:
 		print(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mTotal ID : %s"%(len(id)))
 		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mNama Hasil Dump : "+I+"dump/"+namafi+".json"+Q)
-		zz = input(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mCrack Dengan File Ini (Y/n) : ")
+		zz = input(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mCrack Dengan File Ini (Y/n) :\033[1;93m ")
 		if zz in ["Y", "y", "Yes", "1"]:
 			crackmenu("dump/"+namafi+".json").passmenu("dump/"+namafi+".json")
 			exit()
