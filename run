@@ -329,7 +329,7 @@ def menu():
 	print(C+" ["+P+"10"+C+"]"+P+" Check Opsi Akun Facebook ")
 	print(C+" ["+P+"11"+C+"]"+P+" Check ID")
 	print(C+" ["+P+"12"+C+"]"+P+" Lihat Hasil Crack")
-	print(C+" ["+P+"13"+C+"]"+P+" Chat Admin Jika Ada Masalah ")
+	print(C+" ["+P+"13"+C+"]"+P+" Chat \x1b[1;92mAdmin \x1b[1;97mJika Ada Masalah ")
 	print(C+" ["+P+"00"+C+"]"+M+" Hapus Token/Cookies")
 	ba=input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 	if ba in [""," "]:
