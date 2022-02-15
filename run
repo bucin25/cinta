@@ -1791,9 +1791,9 @@ class crackmenu:
                     break
     def pro_ses(self):
     	jalan("")
-        jalan("Proses Crack Sedang Berjalan Harap Tunggu : "+Q+"["+C+datetime.now().strftime('%H:%M:%S')+Q+"]")
-        print("Hidup Matikan Mode Pesawat Jika Tidak Ada Hasil\n"+war+"Hasil Crack Yang CP DiSimpan Di : "+K+"Hasil/CP-"+durasi+".txt\n"+Q+war+"Hasil Crack Yang OK DiSimpan Di : "+I+"Hasil/OK-"+durasi+".txt\n\n"+Q)
-                
+        jalan(war+"Proses Crack Sedang Berjalan Harap Tunggu : "+Q+"["+C+datetime.now().strftime('%H:%M:%S')+Q+"]")
+        print(war+"Hidup Matikan Mode Pesawat Jika Tidak Ada Hasil\n"+war+"Hasil Crack Yang CP DiSimpan Di : "+K+"Hasil/CP-"+durasi+".txt\n"+Q+war+"Hasil Crack Yang OK DiSimpan Di : "+I+"Hasil/OK-"+durasi+".txt\n\n"+Q)   
+	
 	def menu_crack(self):   # METHOD AUTO PASSWROD
         jalan("\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Methode Login :")
         print(" \033[1;96m[\033[1;97m1\033[1;96m] \033[1;97mB-Api V1      ( Fast Crack  ) ( Rawan Spam )");time.sleep(0.02)
