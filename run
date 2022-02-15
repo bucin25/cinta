@@ -1793,7 +1793,7 @@ class crackmenu:
         jalan("")
         jalan(" Sedang Dalam Proses : "+Q+"["+C+datetime.now().strftime('%H:%M:%S')+Q+"]")
         print(" Mainkan Data Mode Pesawat Selama 1 Detik Jika Tidak Mnedapatkan Hasil")
-	print(" \033[1;96m[\033[1;97m*\033[1;96m] \033[1;97mHasil CP Disimpan Di : \033[1;93mHasil/CP-"+durasi+".txt")
+	print(" \033[1;96m[\033[1;97m*\033[1;96m] \033[1;97mHasil CP Disimpan Di : \033[1;93mHasil/CP-"+durasi+".txt)
 	print(" \033[1;96m[\033[1;97m*\033[1;96m] \033[1;97mHasil OK Disimpan Di : \033[1;92mHasil/OK-"+durasi+".txt\n\n"+Q)
 
     def menu_crack(self):   # METHOD AUTO PASSWROD
