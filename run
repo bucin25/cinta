@@ -1822,7 +1822,7 @@ class crackmenu:
             time.sleep(2)
             menu()
         cjj = open(".paww", "w")
-        zk = input('\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Password (D/m/g) :\033[1;93m ')
+        zk = input('\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Password (\033[1;96mD\033[1;97m/\033[1;93mm\033[1;97m/\033[1;92mg\033[1;97m) :\033[1;93m ')
         if zk in ('m','M','Manual','manual'):
             while True:
                 jalan(war+"Contoh Password : sayang,123456")
@@ -3489,7 +3489,7 @@ def dump_public():
 	else:
 		print(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mTotal ID : %s"%(len(id)))
 		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mNama Hasil Dump : "+I+"dump/"+namafi+".json"+Q)
-		zz = input(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mCrack Dengan File Ini (Y/n) :\033[1;93m ")
+		zz = input(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mCrack Dengan File Ini (\033[1;96mY\033[1;97m/\033[1;93mn) :\033[1;93m ")
 		if zz in ["Y", "y", "Yes", "1"]:
 			crackmenu("dump/"+namafi+".json").passmenu("dump/"+namafi+".json")
 			exit()
