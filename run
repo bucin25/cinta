@@ -3701,7 +3701,7 @@ def masuk_ig():
 	print(Q+"["+C+"2"+Q+"] Login Cookies Instgram")
 	print(Q+"["+C+"3"+Q+"] Kembali Ke Menu Utama :P")
 	lo = input(war+"Pilih : ")
-	if lo in ('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
+	if lo in ["", " "]:
 		jalan(war+"Jangan Kosong :)");time.sleep(1)
 		masuk_ig()
 	elif lo in ["1", "01"]:
