@@ -110,28 +110,6 @@ def play_mpv(x):
 				os.popen("play-audio "+x)
 			except:pass
 	except:pass
-def pilih_alam():
-	global alam
-	pil_b = input(war+"Apakah Anda Mau Bikin Suara/Alarm Jika Keluar Hasil Crack (Y/n) : ")
-	if pil_b == "y" or pil_b == "Y":
-		jalan(war+"Jika Ada Suara Mamang Garookx, Tandanya Hasil Crack Keluar")
-		jalan(war+"Contoh ...")
-		alam = ("y")
-		play_mpv('assalamualaikum.mp3')
-		return alam
-	else:
-		alam = ("Garoookkxxx")
-		return alam
-
-def pilih_infong():
-	global infoong
-	pil_vv = input(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mTampilkan Option Login Facebook (Y/n) : \033[1;93m")
-	if pil_vv == "y" or pil_vv == "Y":
-		infoong = ("y")
-		return infoong
-	else:
-		infoong = ("Garoookkxxx")
-		return infoong
 
 
 def kata_buat_server():
@@ -326,7 +304,7 @@ def menu():
 	jalan(C+" ["+P+"05"+C+"]"+P+" Crack ID Teman Old ")
 	jalan(C+" ["+P+"06"+C+"]"+P+" Crack ID Random Old ")
 	jalan(C+" ["+P+"07"+C+"]"+P+" Crack ID Anggota Groups ")
-	jalan(C+" ["+P+"09"+C+"]"+H+" Crack INSTAGRAM ")
+	jalan(C+" ["+P+"08"+C+"]"+H+" Crack INSTAGRAM ")
 	jalan(C+" ["+P+"09"+C+"]"+P+" Ganti User Agent")
 	jalan(C+" ["+P+"10"+C+"]"+P+" Check Opsi Akun Facebook ")
 	jalan(C+" ["+P+"11"+C+"]"+P+" Check ID")
