@@ -3163,7 +3163,7 @@ def dump_follow():
 		except Exception as e:
 			jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mMaaf ID Tidak Ditemukan ")
 			continue
-		jalan("\n"+war+"Nama   : "+I+nama+Q+"\n")
+		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mNama   : "+I+nama+Q+"\n")
 		try:
 			dump = open('dump/'+namafi+'.json','a+') 
 			for i in requests.get("https://graph.facebook.com/"+idt+"/subscribers?limit="+limit+"&access_token="+token).json()["data"]:
