@@ -3371,9 +3371,9 @@ def dump_follow_public():
 #				tinggal = ("Nama Kota Tidak DiTemukan")
 
 		except Exception as e:
-			jalan(war+"Maaf ID "+C+idt+Q+" Ini Tidak DiTemukan !")
+			jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97m Maaf ID "+C+idt+Q+" Ini Tidak DiTemukan ! ("+str(e)+")")
 			continue
-		jalan("\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mNama   : "+I+nama+Q+"\n")
+		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mNama   : "+I+nama+Q+"\n")
 #		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mTempat   : "+I+tempat+Q)
 #		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97m : "+I+tinggal+Q+"\n")
 		try:
