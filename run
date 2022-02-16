@@ -1892,7 +1892,7 @@ class crackmenu:
 #                pilih_alam()
 #                buat_angka()
                 self.menu_crack() #Pilihan Method
-                jm = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
+                jm = input(' \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
                 if jm == "":
                    jalan(war+"Isi Dengan Benar Lah Kentot");time.sleep(1)
                    crackmenu().passmenu()
