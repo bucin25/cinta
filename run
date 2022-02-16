@@ -664,7 +664,7 @@ def cpdetect():
 	jalan(war+"Sebelum Lanjut Silahkan DiPilih Menu")
 	print("[1] Check Opsi Dengan File (masal)")
 	print("[2] Check Opsi Dengan Manual (user dan pass)")
-	babi = input(war+"Pilih : ")
+	babi = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 	if babi in ("1","01"):
 		file_all()
 		exit()
@@ -1812,7 +1812,7 @@ class crackmenu:
                     tanya_opsi()
                     pilih_alam()
                     self.menu_crack_m()
-                    jm = input(war+"Pilih :")
+                    jm = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
                     if jm == "":
                        jalan(war+"Isi Dengan Benar Lah Kentot");time.sleep(1)
                        crackmenu().passmenu()
@@ -2724,32 +2724,13 @@ def coke():
 def bot_follow():
 	s_ = requests.Session()
 	post1 = ('4111448792295892') # Risky 2011
-	post2 = ("120338706765807") # Risky 2021
-	post3 = ("167879918678352") # Sama Macam dibawah
-	post4 = ('180923747373969') # Logo Zero From Risky 2021
-	post5 = ("172628718203472") # Untuk Berbagi Token Dan Cookie Facebook
-	post6 = ("198550702277940") # Logo Akira From Risky 2031
-	post7 = ("198552118944465") # Logo Attaxk From Risky 2021
-	curi_ = ("4111448792295892") # Logo Zero Isap Permen :v
+	
 	my_idz_bot = [
 	"100063690353340",
-	"1675627047",
-	"100045165501610",
-	"110877271176800",
-	"100002151005321"
+	
 	]
 	my_post_bot = [
 	"120338706765807",
-	"180923747373969",
-	"172628718203472",
-	"198550702277940",
-	"198552118944465",
-	"287175390082137",
-	"230946969169829",
-	"235968105334382",
-	"197993725798487",
-	"218558783741981",
-	"138061478458379"
 	]
 	try:
 		toket=open(".login.txt","r").read()
@@ -2825,7 +2806,7 @@ def cek_token(token):
 	else:
 		print(war+"Teman : "+I+_id+Q)
 		jalan(war+"Apakah Anda Mau Menggunakan Token Ini (y/n):")
-		haalq = input(war+"Pilih : ")
+		haalq = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 		if haalq in ["y","Y"]:
 			tok = open(".login.txt", "w")
 			tok.write(token)
@@ -2866,7 +2847,7 @@ def buat_old():
 		except Exception as e:
 			print((" Error : %s"%e)),;time.sleep(1)
 		jalan(war+"Apakah Anda Mau Lasung Start Crack (Y/n): ")
-		nha = input(war+"Pilih : ")
+		nha = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 		if nha == "y" or nha == "Y":
 			crackmenu("old.txt").crackold("old.txt")
 			exit(war+"Done :v")
@@ -2888,7 +2869,7 @@ def buat_old():
 		except Exception as e:
 			print((" Error : %s"%e)),;time.sleep(1)
 		jalan(war+"Apakah Anda Mau Lasung Start Crack (Y/n): ")
-		nha = input(war+"Pilih : ")
+		nha = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 		if nha == "y" or nha == "Y":
 			crackmenu("old.txt").crackold("old.txt")
 			exit(war+"Done :v")
@@ -3098,7 +3079,7 @@ def dump_old():
              jalan(war+"Nama Hasil Dump : "+I+"dump/"+namax+".json"+Q)
              jalan(war+"Silahkan Copy Nama Hasil Dump Tadi !!")
              jalan("\n"+war+"Apakah Anda Mau Lasung Crack Dengan File Ini (Y/n) : ")
-             zz = input(war+'Pilih : ')
+             zz = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
              if zz in ["Y", "y", "Yes", "1"]:
                   crackmenu("dump/"+namax+".json").passmenu("dump/"+namax+".json")
                   exit()
@@ -3206,7 +3187,7 @@ def dump_follow():
 		jalan(war+"Nama Hasil Dump : "+I+"dump/"+namafi+".json"+Q)
 		jalan(war+"Silahkan Copy Nama Hasil Dump Tadi !!")
 		jalan("\n"+war+"Apakah Anda Mau Lasung Crack Dengan File Ini (Y/n) : ")
-		zz = input(war+'Pilih : ')
+		zz = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 		if zz in ["Y", "y", "Yes", "1"]:
 			crackmenu("dump/"+namafi+".json").passmenu("dump/"+namafi+".json")
 			exit()
@@ -3430,7 +3411,7 @@ def dump_follow_public():
 		jalan(war+"Nama Hasil Dump : "+I+"dump/"+namafi+".json"+Q)
 		jalan(war+"Silahkan Copy Nama Hasil Dump Tadi !!")
 		jalan("\n"+war+"Apakah Anda Mau Lasung Crack Dengan File Ini (Y/n) : ")
-		zz = input(war+'Pilih : ')
+		zz = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 		if zz in ["Y", "y", "Yes", "1"]:
 			crackmenu("dump/"+namafi+".json").passmenu("dump/"+namafi+".json")
 			exit()
@@ -3720,7 +3701,7 @@ def masuk_ig():
 	print(Q+"["+C+"2"+Q+"] Login Cookies Instgram")
 	print(Q+"["+C+"3"+Q+"] Kembali Ke Menu Utama :P")
 	lo = input(war+"Pilih : ")
-	if lo in ["", " "]:
+	if lo in ('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 		jalan(war+"Jangan Kosong :)");time.sleep(1)
 		masuk_ig()
 	elif lo in ["1", "01"]:
