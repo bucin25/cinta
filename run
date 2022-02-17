@@ -3055,9 +3055,11 @@ def dump_old():
         if id_ == "0" or "0" == id_:
              jalan(war+"Kemungkinan Idz Yang Anda Masukan Tidak DiPublickan !!")
         else:
-             print(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mTotal ID : %s"%(len(id)))
-	     jalan(war+"Nama Hasil Dump : "+I+"dump/"+namax+".json"+Q)
-	     zz = input(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mCrack Dengan File Ini (\033[1;96mY\033[1;97m/\033[1;91mn\033[1;97m) :\033[1;93m ")
+             print(war+"Total ID : %s"%(len(id)))
+             jalan(war+"Nama Hasil Dump : "+I+"dump/"+namax+".json"+Q)
+             jalan(war+"Silahkan Copy Nama Hasil Dump Tadi !!")
+             jalan("\n"+war+"Apakah Anda Mau Lasung Crack Dengan File Ini (Y/n) : ")
+             zz = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
              if zz in ["Y", "y", "Yes", "1"]:
                   crackmenu("dump/"+namax+".json").passmenu("dump/"+namax+".json")
                   exit()
