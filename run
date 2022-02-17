@@ -296,52 +296,47 @@ def menu():
 	print("")
 	jalan (" \33[3;1m\033[1;97mMENU Pilihan......\33[0;1m\033")
 	print("")
-	jalan(C+" ["+P+"01"+C+"]"+P+" Crack ID Publik")
-	jalan(C+" ["+P+"02"+C+"]"+P+" Crack ID Unlimited")
-	jalan(C+" ["+P+"03"+C+"]"+P+" Crack ID Follower Unlimited")
-	jalan(C+" ["+P+"04"+C+"]"+P+" Crack ID Teman/Public/Follower")
-	jalan(C+" ["+P+"05"+C+"]"+P+" Crack ID Teman Old ")
-	jalan(C+" ["+P+"06"+C+"]"+P+" Crack ID Random Old ")
-	jalan(C+" ["+P+"07"+C+"]"+P+" Crack ID Anggota Groups ")
-	jalan(C+" ["+P+"08"+C+"]"+H+" Crack INSTAGRAM ")
-	jalan(C+" ["+P+"09"+C+"]"+P+" Ganti User Agent")
-	jalan(C+" ["+P+"10"+C+"]"+P+" Check Opsi Akun Facebook ")
-	jalan(C+" ["+P+"11"+C+"]"+P+" Check ID")
-	jalan(C+" ["+P+"12"+C+"]"+P+" Lihat Hasil Crack")
-	jalan(C+" ["+P+"13"+C+"]"+P+" Chat \x1b[1;92mAdmin \x1b[1;97mJika Ada Masalah ")
+	jalan(C+" ["+P+"01"+C+"]"+P+" Crack ID Publik Unlimited")
+	jalan(C+" ["+P+"02"+C+"]"+P+" Crack ID Follower Unlimited")
+	jalan(C+" ["+P+"03"+C+"]"+P+" Crack ID Teman/Public/Follower")
+	jalan(C+" ["+P+"04"+C+"]"+P+" Crack ID Teman Old ")
+	jalan(C+" ["+P+"05"+C+"]"+P+" Crack ID Random Old ")
+	jalan(C+" ["+P+"06"+C+"]"+P+" Crack ID Anggota Groups ")
+	jalan(C+" ["+P+"07"+C+"]"+H+" Crack INSTAGRAM ")
+	jalan(C+" ["+P+"08"+C+"]"+P+" Ganti User Agent")
+	jalan(C+" ["+P+"09"+C+"]"+P+" Check Opsi Akun Facebook ")
+	jalan(C+" ["+P+"10"+C+"]"+P+" Check ID")
+	jalan(C+" ["+P+"11"+C+"]"+P+" Lihat Hasil Crack")
+	jalan(C+" ["+P+"12"+C+"]"+P+" Chat \x1b[1;92mAdmin \x1b[1;97mJika Ada Masalah ")
 	jalan(C+" ["+P+"00"+C+"]"+M+" Hapus Token/Cookies")
 	ba=input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 	if ba in [""," "]:
 		print(war+"Jangan Kosong Bangsat")
 		time.sleep(2)
 		menu()
-
-	elif ba in ["1","01"]:
-		dump_public1()
-		exit()
 		
-	elif ba in ["2","02"]:
+	elif ba in ["1","01"]:
 		dump_public()
 		exit()
 		
-	elif ba in ["3","03"]:
+	elif ba in ["2","02"]:
 		dump_follow()
 		exit()
 
-	elif ba in ["4","04"]:
+	elif ba in ["3","03"]:
 		dump_follow_public()
 		exit()
 
-	elif ba in ["5","05"]:
+	elif ba in ["4","04"]:
 #		dumppro()
 		dump_old()
 		exit()
 
-	elif ba in ["6","06"]:
+	elif ba in ["5","05"]:
 		buat_old()
 		exit(war+"Done ! ")
 
-	elif ba in ["7","07"]:
+	elif ba in ["6","06"]:
 		jalan(war+"Maaf Menu Ini Sedang Maintenance Harap Besabar !")
 		time.sleep(1)
 		menu()
@@ -375,30 +370,30 @@ def menu():
 				exit("\n"+war+"Maaf Jaringan Anda, Putus Karena Murah")
 		crackmenu("dump/"+nama_grup+".json").passmenu("dump/"+nama_grup+".json")
 		exit("\n"+war+'Done !')
-	elif ba in ["8","08"]:
+	elif ba in ["7","07"]:
 		log_igeh()
 		menu_igeh()
 		exit()
 
 
-	elif ba in ["09"]:
+	elif ba in ["08"]:
 		ganti_ua()
 		exit()
 
-	elif ba in ["10"]:
+	elif ba in ["09"]:
 #	 	buatngecek()  V 1
 		cpdetect()
 		exit()
 
-	elif ba in ["11"]:
+	elif ba in ["10"]:
 		cek_anak_epep()
 		exit()
 
-	elif ba in ["12"]:
+	elif ba in ["1012"]:
 		rek()
 		exit()
 
-	elif ba in ["13"]:
+	elif ba in ["12"]:
 		buat_laporan()
 
 	elif ba in ["00"]:
