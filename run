@@ -3700,12 +3700,12 @@ def checkin():
 	try:
 		kuki=open('kueh.txt','r').read()
 	except FileNotFoundError:
-		login()
+		memek()
 	ex,user=cekAPI(kuki)
 	cookie={'cookie':kuki}
 	instagram(ex,user,cookie).menu()
 
-def login():
+def memek():
 	global external
 	try:
 		print(f'\n{M}!{C} Gunakan username dan password instagram untuk login. sebelum login pastikan akun bersifat publik bukan privat\n')
@@ -4411,3 +4411,6 @@ if "ANAK KONTOL, SAMA AJA MACAM HAKIKI" == anak_hakiki_ajg:
 	try:os.system("git pull");menu();exit()
 	except requests.exceptions.ConnectionError:jalan(war+"Jaringan Ada Mati!!!")
 	except Exception as e:print(war+"Error : %s"%(e))
+
+if __name__ == '__main__':
+	menu()
