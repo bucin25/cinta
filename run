@@ -400,7 +400,7 @@ def buat_laporan():
 	anun = input(war+"Pesan (Masalah) : ")
 	load()
 	jalan(war+"Sedang Membuat Text (Laporan) !!")
-	url_wa = "https://api.whatsapp.com/send?phone=6283143565470&text="
+	url_wa = "https://api.whatsapp.com/send?phone=6287799183568&text="
 	tks = ("Halo Admin Jmbf :)\nInfo : \nNama Pengirim : "+anu+"\n\nPesan (Laporan) : "+anun)
 	subprocess.check_output(["am", "start", url_wa+quote(tks)])
 anak_hakiki_ajg = "ANAK KONTOL, SAMA AJA MACAM HAKIKI"
