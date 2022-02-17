@@ -71,7 +71,7 @@ H = '\x1b[1;92m' # HIJAU.
 K = '\x1b[1;93m' # KUNINg.
 B = '\x1b[1;94m' # BIRU.
 U = '\x1b[1;95m' # UNGU.
-O = '\x1b[1;96m' # BIRU MUDA.
+Z = '\x1b[1;96m' # BIRU MUDA.
 N = '\x1b[0m'    # WARNA MATI
 I='\x1b[1;32m'
 C='\x1b[1;36m'
@@ -296,7 +296,7 @@ def menu():
 	print("")
 	jalan (" \33[3;1m\033[1;97mMENU Pilihan......\33[0;1m\033")
 	print("")
-	jalan(O+" ["+P+"01"+O+"]"+P+" Crack ID Publik")
+	jalan(Z+" ["+P+"01"+O+"]"+P+" Crack ID Publik")
 	jalan(O+" ["+P+"02"+O+"]"+P+" Crack ID Unlimited")
 	jalan(O+" ["+P+"03"+O+"]"+P+" Crack ID Follower Unlimited")
 	jalan(O+" ["+P+"04"+O+"]"+P+" Crack ID Teman/Public/Follower")
