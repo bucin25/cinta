@@ -317,7 +317,7 @@ def menu():
 		menu()
 
 	elif ba in ["1","01"]:
-		dump_public1()
+		dump_public()
 		exit()
 		
 	elif ba in ["2","02"]:
