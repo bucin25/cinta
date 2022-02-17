@@ -100,16 +100,6 @@ garis = (war+"=====================================================")
 #war = ("|— ")
 #inp = ("|–")
 #bulat = ("|-")
-def play_mpv(x):
-	global alam
-	alam = "y"
-	try:
-		if alam == "y" or "y" == alam:
-			try:
-				os.popen("play-audio "+x)
-			except:pass
-	except:pass
-
 
 def kata_buat_server():
 	for nnn in list([C+"@"+K+"•••"+Q, K+"•"+C+"@"+K+"••"+Q, K+"••"+C+"@"+K+"•"+Q, K+"•••"+C+"@"+Q]):
