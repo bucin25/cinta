@@ -296,52 +296,47 @@ def menu():
 	print("")
 	jalan (" \33[3;1m\033[1;97mMENU Pilihan......\33[0;1m\033")
 	print("")
-	jalan(" \033[1;96m[\033[1;97m01\033[1;96m] \033[1;97m Crack ID Publik")
-	jalan(" \033[1;96m[\033[1;97m02\033[1;96m] \033[1;97m Crack ID Unlimited")
-	jalan(" \033[1;96m[\033[1;97m03\033[1;96m] \033[1;97m Crack ID Follower Unlimited")
-	jalan(" \033[1;96m[\033[1;97m04\033[1;96m] \033[1;97m Crack ID Teman/Public/Follower")
-	jalan(" \033[1;96m[\033[1;97m05\033[1;96m] \033[1;97m Crack ID Teman Old ")
-	jalan(" \033[1;96m[\033[1;97m06\033[1;96m] \033[1;97m Crack ID Random Old ")
-	jalan(" \033[1;96m[\033[1;97m07\033[1;96m] \033[1;97m Crack ID Anggota Groups ")
-	jalan(" \033[1;96m[\033[1;97m08\033[1;96m] \033[1;92m Crack INSTAGRAM ")
-	jalan(" \033[1;96m[\033[1;97m09\033[1;96m] \033[1;97m Ganti User Agent")
-	jalan(" \033[1;96m[\033[1;97m10\033[1;96m] \033[1;97mCheck Opsi Akun Facebook ")
-	jalan(" \033[1;96m[\033[1;97m11\033[1;96m] \033[1;97m Check ID")
-	jalan(" \033[1;96m[\033[1;97m12\033[1;96m] \033[1;97m Lihat Hasil Crack")
-	jalan(" \033[1;96m[\033[1;97m13\033[1;96m] \033[1;97m Chat \x1b[1;92mAdmin \x1b[1;97mJika Ada Masalah ")
+	jalan(" \033[1;96m[\033[1;97m01\033[1;96m] \033[1;97m Crack ID Unlimited")
+	jalan(" \033[1;96m[\033[1;97m02\033[1;96m] \033[1;97m Crack ID Follower Unlimited")
+	jalan(" \033[1;96m[\033[1;97m03\033[1;96m] \033[1;97m Crack ID Teman/Public/Follower")
+	jalan(" \033[1;96m[\033[1;97m04\033[1;96m] \033[1;97m Crack ID Teman Old ")
+	jalan(" \033[1;96m[\033[1;97m05\033[1;96m] \033[1;97m Crack ID Random Old ")
+	jalan(" \033[1;96m[\033[1;97m06\033[1;96m] \033[1;97m Crack ID Anggota Groups ")
+	jalan(" \033[1;96m[\033[1;97m07\033[1;96m] \033[1;92m Crack INSTAGRAM ")
+	jalan(" \033[1;96m[\033[1;97m08\033[1;96m] \033[1;97m Ganti User Agent")
+	jalan(" \033[1;96m[\033[1;97m09\033[1;96m] \033[1;97mCheck Opsi Akun Facebook ")
+	jalan(" \033[1;96m[\033[1;97m10\033[1;96m] \033[1;97m Check ID")
+	jalan(" \033[1;96m[\033[1;97m11\033[1;96m] \033[1;97m Lihat Hasil Crack")
+	jalan(" \033[1;96m[\033[1;97m12\033[1;96m] \033[1;97m Chat \x1b[1;92mAdmin \x1b[1;97mJika Ada Masalah ")
 	jalan(" \033[1;96m[\033[1;97m00\033[1;96m] \033[1;91m Hapus Token/Cookies")
 	ba=input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
 	if ba in [""," "]:
 		print(war+"Jangan Kosong Bangsat")
 		time.sleep(2)
 		menu()
-
+		
 	elif ba in ["1","01"]:
 		dump_public()
 		exit()
 		
 	elif ba in ["2","02"]:
-		dump_public()
-		exit()
-		
-	elif ba in ["3","03"]:
 		dump_follow()
 		exit()
 
-	elif ba in ["4","04"]:
+	elif ba in ["3","03"]:
 		dump_follow_public()
 		exit()
 
-	elif ba in ["5","05"]:
+	elif ba in ["4","04"]:
 #		dumppro()
 		dump_old()
 		exit()
 
-	elif ba in ["6","06"]:
+	elif ba in ["5","05"]:
 		buat_old()
 		exit(war+"Done ! ")
 
-	elif ba in ["7","07"]:
+	elif ba in ["6","06"]:
 		jalan(war+"Maaf Menu Ini Sedang Maintenance Harap Besabar !")
 		time.sleep(1)
 		menu()
@@ -375,28 +370,28 @@ def menu():
 				exit("\n"+war+"Maaf Jaringan Anda, Putus Karena Murah")
 		crackmenu("dump/"+nama_grup+".json").passmenu("dump/"+nama_grup+".json")
 		exit("\n"+war+'Done !')
-	elif ba in ["8","08"]:
+	elif ba in ["7","07"]:
 		checkin()
 
 
-	elif ba in ["09"]:
+	elif ba in ["08"]:
 		ganti_ua()
 		exit()
 
-	elif ba in ["10"]:
+	elif ba in ["09"]:
 #	 	buatngecek()  V 1
 		cpdetect()
 		exit()
 
-	elif ba in ["11"]:
+	elif ba in ["10"]:
 		cek_anak_epep()
 		exit()
 
-	elif ba in ["12"]:
+	elif ba in ["11"]:
 		rek()
 		exit()
 
-	elif ba in ["13"]:
+	elif ba in ["12"]:
 		buat_laporan()
 
 	elif ba in ["00"]:
