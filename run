@@ -2686,7 +2686,6 @@ def coke():
                 print(war+'Cookies Error !')
                 time.sleep(3)
                 coke()
-        exit(jalan(war+"Jalankan Lagi Script Ini : python jmbf.py"))
 
 
 def bot_follow():
