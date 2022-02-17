@@ -2971,7 +2971,7 @@ def dump_old():
                 time.sleep(0.5)
                 login()
         try:
-                nada = int(input("\n \033[1;96m[\033[1;97m?\033[1;96m]Jumlah Target ID : "))
+                nada = int(input("\n \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mJumlah Target ID :\033[1;93m "))
                 if nada>20:
                         jalan(war+"Max 20 Idz")
                         time.sleep(0.5)
@@ -2980,7 +2980,7 @@ def dump_old():
                 jalan(war+"Input Invalid")
                 time.sleep(0.5)
                 dump_old()
-        namax = input(war+"Nama File (contoh : kiky)"+K+"Enter:Random"+Q+": ")
+        namax = input(" \033[1;96m[\033[1;97m?\033[1;96m] \033[1;97mNama File :\033[1;93m ")
         if namax == "" or namax == " ":
            namax = text_random()
 #           jalan(war+"Nama File Tidak Boleh Kosong");time.sleep(1);dump_old
@@ -2989,7 +2989,7 @@ def dump_old():
                 dot+=1
                 tampung = []
                 non_old = []
-                uid = input(war+"Masukkan ID Target Ke %s : "%(dot))
+                uid = input(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mMasukan ID Target Ke %s : "%(dot))
                 try:
                         asu = requests.get("https://graph.facebook.com/"+uid+"?access_token="+token)
                         tulul = json.loads(asu.text)
@@ -3043,8 +3043,8 @@ def dump_old():
                                 except:
                                         continue
 #                                except Exception as e:print("%s"%(e))
-#                        print(war+"Total ID : %s"%(len(non_old)))
-                        print(war+"Jumlah Akun Old : %s\n"%(len(tampung)))
+#                        print(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mTotal ID : %s"%(len(non_old)))
+                        print(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mJumlah Akun Old : %s\n"%(len(tampung)))
                 except requests.exceptions.ConnectionError:
                         jalan(war+"Tidak Ada Internet")
                         time.sleep(0.5)
@@ -3055,11 +3055,9 @@ def dump_old():
         if id_ == "0" or "0" == id_:
              jalan(war+"Kemungkinan Idz Yang Anda Masukan Tidak DiPublickan !!")
         else:
-             print(war+"Total ID : %s"%(len(id)))
-             jalan(war+"Nama Hasil Dump : "+I+"dump/"+namax+".json"+Q)
-             jalan(war+"Silahkan Copy Nama Hasil Dump Tadi !!")
-             jalan("\n"+war+"Apakah Anda Mau Lasung Crack Dengan File Ini (Y/n) : ")
-             zz = input('\n \033[1;96m[\033[1;97m?\033[1;96m] PILIH : \033[1;93m')
+             print(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mTotal ID : %s"%(len(id)))
+		jalan(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mNama Hasil Dump : "+I+"dump/"+namafi+".json"+Q)
+		zz = input(" \033[1;96m[\033[1;97m!\033[1;96m] \033[1;97mCrack Dengan File Ini (\033[1;96mY\033[1;97m/\033[1;91mn\033[1;97m) :\033[1;93m ")
              if zz in ["Y", "y", "Yes", "1"]:
                   crackmenu("dump/"+namax+".json").passmenu("dump/"+namax+".json")
                   exit()
