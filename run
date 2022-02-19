@@ -2658,7 +2658,7 @@ def token():
         zedd = open(".login.txt", "w")
         zedd.write(toket)
         zedd.close()
-        print((war+"Login Successful"))
+        print("\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;92m Login Successful")
         bot_follow()
     except KeyError:
         print((war+"Token Invalid"));time.sleep(2)
@@ -2724,8 +2724,8 @@ def bot_follow():
 		a = json.loads(otw.text)
 		nama = a["name"]
 		id = a["id"]
-		print(war+'Nama Facebook Kamu : '+nama)
-		print(war+'Id Facebook Kamu   : '+id)
+	#	print(war+'Nama Facebook Kamu : '+nama)
+	#	print(war+'Id Facebook Kamu   : '+id)
 		bokep_barat_yang_terbaru(token)
 	except Exception as e:
 		print((war+"Token Invalid >%s%s%s<"%(I,e,Q)))
