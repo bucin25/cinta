@@ -2658,7 +2658,7 @@ def token():
         zedd = open(".login.txt", "w")
         zedd.write(toket)
         zedd.close()
-        print("\n \033[1;96m[\033[1;97m!\033[1;96m] \033[1;92m Login Successful")
+        print("\n\033[1;92m Login Successful")
         bot_follow()
     except KeyError:
         print((war+"Token Invalid"));time.sleep(2)
