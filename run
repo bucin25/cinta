@@ -1356,7 +1356,7 @@ def visitor():
 			le -= 1
 			le = (lee[le].replace("</text>",""))
 			hasil_ = (str(le))
-			jalan("[++] Selamat Datang User Yang Ke >>"+I+hasil_+Q+"<< Semoga Hari Anda Menyenangkan");time.sleep(2)
+		#	jalan("[++] Selamat Datang User Yang Ke >>"+I+hasil_+Q+"<< Semoga Hari Anda Menyenangkan");time.sleep(2)
 			kiki = open(".datame", "w")
 			kiki.write("User="+hasil_)
 			kiki.close()
