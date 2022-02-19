@@ -2661,7 +2661,7 @@ def token():
         print("\n\033[1;92m Login Successful")
         bot_follow()
     except KeyError:
-        print((war+"Token Invalid"));time.sleep(2)
+      #	print((war+"Token Invalid"));time.sleep(2)
         token()
 def check_kukis():
 	session = req.Session()
