@@ -98,9 +98,9 @@ p='\x1b[00m'
 h='\x1b[1;90m'
 q="\x1b[00m"
 version_xx=("2.0.3")
-war = (O+"["+P+"+"+O+"] ")
-inp = (Q+"["+U+"-"+Q+"] ")
-bulat = (Q+"["+C+"#"+Q+"] ")
+war = (O+" ["+P+"+"+O+"]"+P+")
+inp = (Q+" ["+U+"-"+Q+"] ")
+bulat = (Q+" ["+C+"#"+Q+"] ")
 garis = (war+"=====================================================")
 #war = ("|— ")
 #inp = ("|–")
@@ -379,7 +379,7 @@ def menu():
 		os.system("rm -rf .login.txt")
 		exit()
 	else:
-		print(war+'Isi Dengan Benar Bangsat')
+		print(' \033[1;96m[\033[1;97m!\033[1;96m] \033[1;92mIsi Dengan Benar Bangsat')
 #	elif ba in ["","12"]:
 def buat_laporan():
 	from urllib.parse import quote
