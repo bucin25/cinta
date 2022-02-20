@@ -392,7 +392,7 @@ def menu():
 		buat_laporan()
 
 	elif ba in ["00"]:
-		jalan("Terima Kasih....")
+		jalan(" Terima Kasih....")
 		os.system("rm -rf .login.txt")
 		exit()
 	else:
